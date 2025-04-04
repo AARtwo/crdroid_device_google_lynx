@@ -21,6 +21,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     HbmSVManagerOverlayLynx
 
+# IWLAN
+PRODUCT_PACKAGES += \
+    Iwlan
+
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
@@ -35,6 +39,10 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
+
+# GNSS
+PRODUCT_PACKAGES += \
+    android.hardware.sensors-V2-ndk.vendor:64
 
 # Graphics
 PRODUCT_PACKAGES += \

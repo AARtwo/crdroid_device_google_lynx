@@ -100,6 +100,14 @@ PRODUCT_PACKAGES += \
 	android.hardware.nfc-service.st \
 	NfcOverlayLynx
 
+# BCR
+PRODUCT_PACKAGES += \
+    BCR
+
+# F-Droid Privileged Extension
+PRODUCT_PACKAGES += \
+    F-DroidPrivilegedExtension
+
 # Shared Modem Platform
 SHARED_MODEM_PLATFORM_VENDOR := lassen
 
